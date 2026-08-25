@@ -187,6 +187,10 @@ a {
 
 .navbar-brand {
   font-size: 1.3rem;
+  &:hover,
+  &:focus{
+    color:var(--secondary-mid);
+  }
 }
 
 .intro {

@@ -1,33 +1,33 @@
-// Light theme (Solarized light)
+// Light theme
 :root {
-  --primary-color: #fdf6e3;
-  --background-color: #efebd4;
-  --font-color: #4a565d;
-  --font-color-light: #6d7a83;
-  --font-color-dark: #3d4a51;
-  --font-color-faint-2: rgba(74, 86, 93, 0.2);
-  --font-color-faint-3: rgba(74, 86, 93, 0.3);
-  --secondary-color: #1567a0;
-  --secondary-dark: #0a3d6f;
-  --secondary-mid: #107799;
-  --secondary-half: rgba(21, 103, 160, 0.5);
-  --secondary-subtle: rgba(21, 103, 160, 0.05);
+  --primary-color: #efe8d5;
+  --background-color: #efe8d5;
+  --font-color: #151520;
+  --font-color-light: #69a6a1;
+  --font-color-dark: #151520;
+  --font-color-faint-2: rgba(248, 245, 153, 0.2);
+  --font-color-faint-3: #e7c04d;
+  --secondary-color: #36847b;
+  --secondary-dark: #d3a510;
+  --secondary-mid: #e1b20a;
+  --secondary-half: rgba(244, 229, 89, 0.5);
+  --secondary-subtle: rgba(180, 140, 9, 0.05);
 }
 
-// Dark theme (Everforest dark)
+// Dark theme 
 [data-theme="dark"] {
-  --primary-color: #272e33;
-  --background-color: #2e383c;
-  --font-color: #d3c6aa;
-  --font-color-light: #c5b48f;
-  --font-color-dark: #e1d8c5;
-  --font-color-faint-2: rgba(211, 198, 170, 0.2);
-  --font-color-faint-3: rgba(211, 198, 170, 0.3);
-  --secondary-color: #6aafd4;
-  --secondary-dark: #307ea8;
-  --secondary-mid: #429ac9;
-  --secondary-half: rgba(106, 175, 212, 0.5);
-  --secondary-subtle: rgba(106, 175, 212, 0.08);
+  --primary-color: #151520;
+  --background-color: #151520;
+  --font-color: #efe8d5;
+  --font-color-light: #f3e7c9;
+  --font-color-dark: #e3d982;
+  --font-color-faint-2: rgba(211, 207, 170, 0.2);
+  --font-color-faint-3: #69a6a1;
+  --secondary-color: #f6eb98;
+  --secondary-dark: #69a6a1;
+  --secondary-mid: #77bab2;
+  --secondary-half: rgba(71, 181, 183, 0.5);
+  --secondary-subtle: rgba(62, 190, 164, 0.08);
 }
 
 html {
