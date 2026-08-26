@@ -21,14 +21,14 @@ favicon: ""
 # Header layout#
 ################
 black-favicon: ""
-background-img: "/img/Chalk-Noodles-BG.png"
+background-img: "Chalk-Noodles-BG.png"
 
 ##############################
 # Dynamic Text on the Header #
 ##############################
 
 quote: "TBD"
-me-img: "/img/jetpacktocat.png"
+me-img: "/img/my-face.jpg"
 
 # To use github profile pic uncomment the following line and replace 'user_name'
 # with your github user name.
@@ -58,7 +58,7 @@ email: "ej@everjaydesigns.com"
 # The author blurb goes underneath blog posts.
 # This works best when your author blurb image has a transparent background, or matches your site background color.
 
-author_blurb_image: "/img/author.png"
+author_blurb_image: "/img/my-face.jpg"
 author_blurb:
   ""
 
