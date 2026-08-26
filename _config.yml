@@ -16,12 +16,12 @@ author: "EverJay Designs"
 title: "EverJay Designs"
 description: "Designs portfolio for EverJay Designs."
 keywords: "everjay, graphic design, portfolio, design portfolio, ej zamloot, everett zamloot"
-favicon: "/img/favicon.ico"
+favicon: ""
 ################
 # Header layout#
 ################
-black-favicon: "/img/black-lab-glass.ico"
-background-img: "Chalk-Noodles-BG.png"
+black-favicon: ""
+background-img: "/img/Chalk-Noodles-BG.png"
 
 ##############################
 # Dynamic Text on the Header #
