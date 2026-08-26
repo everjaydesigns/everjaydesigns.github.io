@@ -21,7 +21,7 @@ favicon: ""
 # Header layout#
 ################
 black-favicon: ""
-background-img: "Chalk-Noodles-BG.png"
+background-img: "/img/Chalk-Noodles-BG.png"
 
 ##############################
 # Dynamic Text on the Header #
