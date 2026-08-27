@@ -196,11 +196,11 @@ a {
 .intro {
   display: table;
   width: 100%;
-  height: auto;
+  min-height: 100vh;
   text-align: center;
   padding-top: 0rem;
   color: var(--font-color);
-  background-color: var(--primary-color);
+  background: linear-gradient(var(--background-color) 15%, transparent 75%), url({{ site.background-img | relative_url }}) no-repeat top center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
@@ -208,11 +208,7 @@ a {
   .intro-body {
     display: table-cell;
     vertical-align: middle;
-    .bg-img{
-      mask-image: linear-gradient(transparent 5%, black 50%);
-      width: 100%;
-      height: auto;
-    } 
+   
     .brand-heading {
       font-size: 2.5rem;
     }
@@ -271,12 +267,24 @@ a {
 }
 
 .content-section {
-  margin-top: 5.02rem;
-  padding-top: 5.02rem;
+  margin-top: 1rem;
+  padding-top: 1rem;
   @media (min-width: 768px) {
-    margin-top: 7.8125rem;
-    padding-top: 7.8125rem;
+    margin-top: 1rem;
+    padding-top: 1rem;
   }
+  .img-me {
+  width: 15rem;
+  height: auto;
+  border: 0.4375rem solid var(--background-color);
+  border-radius: 100%;
+  background-color: var(--background-color);
+  color: #f2f2f2;
+
+  display: block;
+  margin: 0 auto;
+  cursor: pointer;
+}
   img {
     display: block;
     max-width: 100%;
