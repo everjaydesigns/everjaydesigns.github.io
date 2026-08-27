@@ -198,7 +198,7 @@ a {
   width: 100%;
   height: auto;
   text-align: center;
-  padding-top: 20rem;
+  padding-top: 0rem;
   color: var(--font-color);
   background-color: var(--primary-color);
   -webkit-background-size: cover;
@@ -208,6 +208,11 @@ a {
   .intro-body {
     display: table-cell;
     vertical-align: middle;
+    .bg-img{
+      mask-image: linear-gradient(transparent 5%, black 50%);
+      width: 100%;
+      height: auto;
+    } 
     .brand-heading {
       font-size: 2.5rem;
     }
@@ -227,7 +232,7 @@ a {
     }
   }
   @media (min-width: 1200px) {
-    padding-top: 30rem;
+    padding-top: 0rem;
   }
 }
 

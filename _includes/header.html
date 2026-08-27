@@ -1,14 +1,14 @@
 <!-- Intro Start -->
 <header class="intro">
   <div class="intro-body">
+     <img
+              class="bg-img"
+src="{{ site.background-img | relative_url }}"
+              alt="" 
+            />
     <div class="container">
       <div class="row">
-        <img
-              class="img"
-src="{{ site.background-img | relative_url }}"
-              alt=""
-            />
-        <div class="col-md-12 col-md-offset-2">
+          <div class="col-md-12 col-md-offset-2">
           <span class="intro-text">{{ content }}</span>
           <h5>&nbsp;</h5>
           <a href="#{{ site.pages_list['About'] }}" class="page-scroll">
