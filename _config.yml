@@ -21,7 +21,7 @@ favicon: ""
 # Header layout#
 ################
 black-favicon: ""
-background-img: "/img/Chalk-Noodles-BG.png"
+background-img: "https://res.cloudinary.com/teasfbaz/image/upload/f_auto,q_auto/Chalk-Noodles-BG"
 
 ##############################
 # Dynamic Text on the Header #
