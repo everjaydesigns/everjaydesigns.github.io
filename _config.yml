@@ -28,7 +28,7 @@ background-img: "https://res.cloudinary.com/teasfbaz/image/upload/f_auto,q_auto/
 ##############################
 
 quote: "Hi, I'm EJ! Let's make something beautiful."
-me-img: "/img/my-face.jpg"
+me-img: "https://res.cloudinary.com/teasfbaz/image/upload/v1787955984/my-face.jpg"
 
 # To use github profile pic uncomment the following line and replace 'user_name'
 # with your github user name.
@@ -58,7 +58,7 @@ email: "ej@everjaydesigns.com"
 # The author blurb goes underneath blog posts.
 # This works best when your author blurb image has a transparent background, or matches your site background color.
 
-author_blurb_image: "/img/my-face.jpg"
+author_blurb_image: "https://res.cloudinary.com/teasfbaz/image/upload/v1787955984/my-face.jpg"
 author_blurb:
   ""
 
