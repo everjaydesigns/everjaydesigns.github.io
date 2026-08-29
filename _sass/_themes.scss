@@ -1,23 +1,8 @@
 // Light theme
 :root {
-  --primary-color: #efe8d5;
-  --background-color: #efe8d5;
-  --font-color: #151520;
-  --font-color-light: #69a6a1;
-  --font-color-dark: #151520;
-  --font-color-faint-2: rgba(248, 245, 153, 0.2);
-  --font-color-faint-3: #e7c04d;
-  --secondary-color: #36847b;
-  --secondary-dark: #d3a510;
-  --secondary-mid: #e1b20a;
-  --secondary-half: rgba(244, 229, 89, 0.5);
-  --secondary-subtle: rgba(180, 140, 9, 0.05);
-}
-
-// Dark theme 
-[data-theme="dark"] {
   --primary-color: #151520;
   --background-color: #151520;
+  --background-color-intro: rgba(21, 21, 32, 0.7);
   --font-color: #efe8d5;
   --font-color-light: #f3e7c9;
   --font-color-dark: #e3d982;
@@ -28,6 +13,23 @@
   --secondary-mid: #77bab2;
   --secondary-half: rgba(71, 181, 183, 0.5);
   --secondary-subtle: rgba(62, 190, 164, 0.08);
+}
+
+// Dark theme 
+[data-theme="dark"] {
+    --primary-color: #efe8d5;
+  --background-color: #efe8d5;
+  --background-color-intro: rgba(239, 232, 213, 0.7);
+  --font-color: #151520;
+  --font-color-light: #69a6a1;
+  --font-color-dark: #151520;
+  --font-color-faint-2: rgba(248, 245, 153, 0.2);
+  --font-color-faint-3: #e7c04d;
+  --secondary-color: #36847b;
+  --secondary-dark: #d3a510;
+  --secondary-mid: #e1b20a;
+  --secondary-half: rgba(244, 229, 89, 0.5);
+  --secondary-subtle: rgba(180, 140, 9, 0.05);
 }
 
 html {
