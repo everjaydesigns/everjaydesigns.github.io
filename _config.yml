@@ -15,7 +15,7 @@ lang: "en"
 author: "EverJay Designs"
 title: "EverJay Designs"
 description: "Design portfolio for EverJay Designs."
-keywords: "everjay, graphic design, portfolio, design portfolio, ej zamloot, everett zamloot"
+keywords: "everjay, graphic design, portfolio, design portfolio, ej zamloot, everett zamloot, art, everjay designs"
 favicon: ""
 ################
 # Header layout#
@@ -45,12 +45,6 @@ me-img: "https://res.cloudinary.com/teasfbaz/image/upload/v1787955984/my-face.jp
 
 
 
-###########
-# Contact #
-###########
-
-email: "ej@everjaydesigns.com"
-
 ################
 # Author Blurb #
 ################
@@ -59,22 +53,19 @@ email: "ej@everjaydesigns.com"
 # This works best when your author blurb image has a transparent background, or matches your site background color.
 
 author_blurb_image: "https://res.cloudinary.com/teasfbaz/image/upload/v1787955984/my-face.jpg"
-author_blurb:
-  ""
+author_blurb: "Author blurb goes here."
 
 ##################
 # Social Buttons #
 ##################
 
 social:
-  - icon: "github"
-    url: "https://github.com/le4ker/personal-jekyll-theme"
-  - icon: "linkedin-in"
-    url: "https://www.linkedin.com"
-  - icon: "x-twitter"
-    url: "https://twitter.com/"
-  - icon: "rss"
-    url: "https://le4ker.github.io/personal-jekyll-theme/feed.xml"
+  - icon: "tumblr"
+    url: "https://www.tumblr.com/everjay-art"
+  - icon: "instagram"
+    url: "https://www.instagram.com/everjay.art"
+  - icon: "facebook"
+    url: "https://www.facebook.com/everjaydesigns"
 
 # NB! Tread carefully if you want to change the variables below this point!
 

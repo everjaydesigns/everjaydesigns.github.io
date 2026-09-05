@@ -2,7 +2,7 @@
 
 <section
   id="{{ page.section-type }}"
-  class="container content-section text-center"
+  class="container content-section"
 > <div class="container">
       <div class="row">
         <div class="col-md-12 col-md-offset-2">
@@ -15,15 +15,16 @@ src="{{ site.me-img | relative_url }}"
               alt=""
             />
           </a>
+          <div class="row justify-content-center">
+    
+    <div class="col-md-10 col-12">
+      <div class="col-12">{{ page.content | markdownify }}</div>
+      <p class="blurb">{{ site.author_blurb }}</p>
+          </div>
         </div>
       </div>
     </div>
-  <div class="row justify-content-center">
-    <div class="col-12">{{ page.content | markdownify }}</div>
-    <div class="col-md-10 col-12">
-      <p class="blurb pt-5">{{ site.author_blurb }}</p>
-      <p>About blurb goes here</p>
-      </div>
+  
   </div>
 </section>
 

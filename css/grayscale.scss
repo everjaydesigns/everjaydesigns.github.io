@@ -10,7 +10,7 @@ body {
   font-family: "Arial", sans-serif;
   color: var(--font-color);
   background-color: var(--primary-color);
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   line-height: 1.6;
   text-align: justify;
   scroll-behavior: smooth;
@@ -46,9 +46,13 @@ h1 {
 }
 
 h2 {
-  font-size: 3.14rem;
-  margin-top: 3.11rem;
-  margin-bottom: 1.92rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  font-size: 2.5rem;
+  font-family: "Arial Rounded MT Bold", sans-serif;
+  font-weight: 900;
+  letter-spacing: 0.25rem;
+  text-transform: lowercase;
 }
 
 h3 {
@@ -282,9 +286,7 @@ a {
   border-radius: 100%;
   background-color: var(--background-color);
   color: #f2f2f2;
-
-  display: block;
-  margin: 0 auto;
+  float: left;
   cursor: pointer;
 }
   img {
